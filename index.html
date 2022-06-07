@@ -5,34 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu HTML</title>
+    <title>Document</title>
+
     <style>
-        h1 {
-            background: red;
+        .section-one {
+
+            background-color: deeppink;
+            background-image: url(https://images.squarespace-cdn.com/content/v1/5c69df27ca525b3b56a5cce6/1553776779529-IF27XV130PBNE5RZU3F9/JackBrauer-WanakaSunrise.jpg?format=500w);
+            background-size: cover;
+            background-position: center center;
+            width: 200px;
+            height: 50px;
+            border: 5px solid black;
+            padding: 15px;
+            margin: 20px
         }
 
-        p {
-            background: blue;
-        }
-
-        #cabecalho-dois {
-            background: purple;
-        }
-
-        .fundo-vermelho {
-            background: red;
+        .section-two {
+            background: cyan;
+            width: 200px;
+            height: 50px;
+            border: 5px solid black;
+            padding: 15px;
+            margin: 20px
         }
     </style>
 </head>
 
 <body>
-    <h1 id="cabecalho-um" class="fundo-vermelho borde-esquerda">
-        Vai vir aqui
-    </h1>
-    <h1 id="cabecalho-dois" class="fundo-vermelho">
-        Vai vir aqui
-    </h1>
-    <p>Um texto qualquer</p>
+    <section class="section-one">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin velit dui, convallis vel erat vitae, vulputate
+        dapibus urna. Nunc efficitur leo ac ultricies pretium. Sed in massa orci. Quisque id accumsan leo, eu
+        ullamcorper mauris.
+    </section>
+    <section class="section-two">2</section>
 </body>
 
 </html>
